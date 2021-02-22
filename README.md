@@ -1,7 +1,10 @@
 # Movies-ETL
 
-### Purpose
+## Purpose
+
 to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data and performs the ETL process by adding the data to a PostgreSQL database.
+
+## Analysis
 
 ### Deliverable 1: Write an ETL Function to Read Three Data Files
 I wrote a function that reads in the three data files and creates three separate DataFrames.
@@ -16,4 +19,3 @@ Using my knowledge of Python, Pandas, the ETL process, and code refactoring, I e
 The movies_with_ratings_df and the movies_df DataFrames are displayed in the ETL_clean_kaggle_data.ipynb file.
 
 ### Deliverable 4: Create the Movie Database
-
